@@ -12,9 +12,9 @@ function limpiarPantalla() {
     document.getElementById('pantalla').value = '';
 }
 
-function calcular() {
+function deshacer() {
     const valorPantalla = document.getElementById('pantalla').value;
-    document.getElementById('pantalla').value = valorPantalla.Slice(0, -1);
+    document.getElementById('pantalla').value = valorPantalla.slice(0, -1)
 }
 
 
