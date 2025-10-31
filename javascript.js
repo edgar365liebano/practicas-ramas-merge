@@ -11,3 +11,8 @@ function calcular() {
 function limpiarPantalla() {
     document.getElementById('pantalla').value = '';
 }
+
+function calcular() {
+    const valorPantalla = document.getElementById('pantalla').value;
+    document.getElementById('pantalla').value = valorPantalla.Slice(0, -1);
+}
